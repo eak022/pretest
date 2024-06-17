@@ -1,0 +1,58 @@
+:root{
+    --clr-grey1:hsl(209,61%,16%);
+    --clr-grey5:hsl(210,22%,49%);
+    --clr-grey10:hsl(210,36%,96%);
+    --spacing:0.1rem;
+    --max-width:1170px;
+    --min-width:62px;
+    --clr-gold:#c59d5f;
+    --clr-white:#ffffff;
+    --radius:0.25rem;
+    --transition:all 0.3s linear;
+}
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', sens-serif;
+    background: var(--clr-grey10);
+    color: var(--clr-grey1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input input{
+  width: 80%;
+}
+
+.restaurant{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2rem;
+  padding: 1rem;
+}
+.menu-item{
+  display: inline;
+  background-color: #ffffff;
+  width: 18rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.photo{
+  width: 16rem;
+}
